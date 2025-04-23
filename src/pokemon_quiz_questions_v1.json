@@ -1,0 +1,138 @@
+[
+    {
+      "question": "You’re given $1m to buy your dream house, where would you build it?",
+      "answers": [
+        { "text": "A beach house near the ocean", "type": "Water" },
+        { "text": "An eco-home in the forest", "type": "Grass" },
+        { "text": "A castle in the mountains", "type": "Dragon" },
+        { "text": "A luxury apartment in the city", "type": "Electric" }
+      ]
+    },
+    {
+      "question": "You’re faced with a tough decision — what do you trust most?",
+      "answers": [
+        { "text": "My gut instinct", "type": "Psychic" },
+        { "text": "My emotions", "type": "Water" },
+        { "text": "Cold, hard logic", "type": "Ground" },
+        { "text": "Whatever everyone else is doing", "type": "Normal" }
+      ]
+    },
+    {
+      "question": "What’s your ideal superpower?",
+      "answers": [
+        { "text": "Invisibility", "type": "Ghost" },
+        { "text": "Telepathy", "type": "Psychic" },
+        { "text": "Super strength", "type": "Fighting" },
+        { "text": "Shapeshifting", "type": "Normal" }
+      ]
+    },
+    {
+      "question": "Pick a weapon for the end of the world.",
+      "answers": [
+        { "text": "Baseball bat", "type": "Fighting" },
+        { "text": "Lightsaber", "type": "Fire" },
+        { "text": "Samurai sword", "type": "Dragon" },
+        { "text": "Machete", "type": "Grass" }
+      ]
+    },
+    {
+      "question": "Choose one that best describes your love life:",
+      "answers": [
+        { "text": "I’ve found the one", "type": "Electric" },
+        { "text": "Thinking about my ex", "type": "Poison" },
+        { "text": "Friends with benefits", "type": "Ice" },
+        { "text": "Tragically single", "type": "Ghost" }
+      ]
+    },
+    {
+      "question": "Pick the video gaming GOAT:",
+      "answers": [
+        { "text": "Nintendo", "type": "Dragon" },
+        { "text": "PlayStation or Xbox", "type": "Fire" },
+        { "text": "PC", "type": "Electric" },
+        { "text": "I don’t play video games", "type": "Normal" }
+      ]
+    },
+    {
+      "question": "Pick your vibe:",
+      "answers": [
+        { "text": "Quietly unhinged", "type": "Bug" },
+        { "text": "Floating through life", "type": "Flying" },
+        { "text": "Just here for the snacks", "type": "Normal" },
+        { "text": "Built different", "type": "Rock" }
+      ]
+    },
+    {
+      "question": "Which Pokémon clan are you repping?",
+      "answers": [
+        { "text": "Team Valor (Red)", "type": "Fire" },
+        { "text": "Team Mystic (Blue)", "type": "Water" },
+        { "text": "Team Instinct (Yellow)", "type": "Electric" },
+        { "text": "Team Rocket", "type": "Poison" }
+      ]
+    },
+    {
+      "question": "You’ve time-travelled to the caveman era. How are you hunting for food?",
+      "answers": [
+        { "text": "Scavenge for bugs and insects", "type": "Bug" },
+        { "text": "Dig a hole as a trap to catch a small animal", "type": "Ground" },
+        { "text": "Forage for mushrooms and berries", "type": "Poison" },
+        { "text": "Craft a spear and hunting knife for big prey", "type": "Rock" }
+      ]
+    },
+    {
+      "question": "How do you prepare for a big day?",
+      "answers": [
+        { "text": "Blast music to hype yourself up", "type": "Fire" },
+        { "text": "Hit the gym or go for a run", "type": "Fighting" },
+        { "text": "Ignore everyone and stay focused", "type": "Ice" },
+        { "text": "Visualize every possible outcome", "type": "Psychic" }
+      ]
+    },
+    {
+      "question": "Pick a hobby you’d like to try:",
+      "answers": [
+        { "text": "Catching & studying butterflies", "type": "Bug" },
+        { "text": "Exploring abandoned buildings", "type": "Ghost" },
+        { "text": "Growing your own vegetables", "type": "Grass" },
+        { "text": "Collecting fossils", "type": "Rock" }
+      ]
+    },
+    {
+      "question": "What’s your favourite movie genre?",
+      "answers": [
+        { "text": "Action", "type": "Fighting" },
+        { "text": "Sci-fi", "type": "Psychic" },
+        { "text": "Comedy", "type": "Grass" },
+        { "text": "Horror", "type": "Ghost" }
+      ]
+    },
+    {
+      "question": "How do you handle stress?",
+      "answers": [
+        { "text": "Go for a walk to clear your head", "type": "Ground" },
+        { "text": "Focus on something practical and small", "type": "Rock" },
+        { "text": "Say nothing and bottle it all up", "type": "Ice" },
+        { "text": "Talk it out with friends and move on", "type": "Normal" }
+      ]
+    },
+    {
+      "question": "Pick your daily mindset:",
+      "answers": [
+        { "text": "Keep it simple", "type": "Normal" },
+        { "text": "I'm probably the villain here", "type": "Poison" },
+        { "text": "Stay grounded, take it slow", "type": "Ground" },
+        { "text": "Manifest greatness", "type": "Dragon" }
+      ]
+    },
+    {
+      "question": "Pick one to get rich:",
+      "answers": [
+        { "text": "Gold", "type": "Normal" },
+        { "text": "OnlyFans", "type": "Poison" },
+        { "text": "Real Estate", "type": "Ground" },
+        { "text": "Bitcoin", "type": "Dragon" }
+      ]
+    }
+  ]
+  
