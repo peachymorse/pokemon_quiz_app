@@ -7,20 +7,26 @@
   }
   
   .result-header {
-    width: 100%;
-    height: 180px;
-    border-top-left-radius: 100% 50%;
-    border-top-right-radius: 100% 50%;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(to bottom, var(--theme-color) 0%, transparent 100%);
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
   }
   
   .pokemon-image {
     width: 178px;
     height: 178px;
-    margin-top: -90px;
+    object-fit: contain;
+    position: absolute;
+    bottom: -4px; 
   }
+  
   
   .pokemon-name {
     font-size: 1.8rem;

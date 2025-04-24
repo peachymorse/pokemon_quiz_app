@@ -20,9 +20,10 @@ const ResultScreen = ({ resultType, onRestart }: Props) => {
       <div
         className="result-header"
         style={{
-          background: `linear-gradient(to bottom, ${result.hex} 0%, transparent 100%)`,
-        }}
+          "--theme-color": result.hex,
+        } as React.CSSProperties}
       >
+
         <img
           src={`/assets/${result.image}`}
           alt={result.name}
