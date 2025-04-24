@@ -23,7 +23,7 @@
         { "text": "Invisibility", "type": "Ghost" },
         { "text": "Telepathy", "type": "Psychic" },
         { "text": "Super strength", "type": "Fighting" },
-        { "text": "Shapeshifting", "type": "Normal" }
+        { "text": "Shapeshifting", "type": "Water" }
       ]
     },
     {
@@ -57,8 +57,8 @@
       "question": "Pick your vibe:",
       "answers": [
         { "text": "Quietly unhinged", "type": "Bug" },
-        { "text": "Floating through life", "type": "Flying" },
-        { "text": "Just here for the snacks", "type": "Normal" },
+        { "text": "Breezing through life", "type": "Flying" },
+        { "text": "Just here for the snacks", "type": "Bug" },
         { "text": "Built different", "type": "Rock" }
       ]
     },
@@ -75,7 +75,7 @@
       "question": "You’ve time-travelled to the caveman era. How are you hunting for food?",
       "answers": [
         { "text": "Scavenge for bugs and insects", "type": "Bug" },
-        { "text": "Dig a hole as a trap to catch a small animal", "type": "Ground" },
+        { "text": "Set a trap to catch a bird or small animal", "type": "Flying" },
         { "text": "Forage for mushrooms and berries", "type": "Poison" },
         { "text": "Craft a spear and hunting knife for big prey", "type": "Rock" }
       ]
@@ -92,7 +92,7 @@
     {
       "question": "Pick a hobby you’d like to try:",
       "answers": [
-        { "text": "Catching & studying butterflies", "type": "Bug" },
+        { "text": "Catching & studying butterflies", "type": "Flying" },
         { "text": "Exploring abandoned buildings", "type": "Ghost" },
         { "text": "Growing your own vegetables", "type": "Grass" },
         { "text": "Collecting fossils", "type": "Rock" }
@@ -117,18 +117,18 @@
       ]
     },
     {
-      "question": "Pick your daily mindset:",
+      "question": "What keeps you going in life?:",
       "answers": [
-        { "text": "Keep it simple", "type": "Normal" },
-        { "text": "I'm probably the villain here", "type": "Poison" },
-        { "text": "Stay grounded, take it slow", "type": "Ground" },
-        { "text": "Manifest greatness", "type": "Dragon" }
+        { "text": "Routine and comfort", "type": "Normal" },
+        { "text": "The sweet satisfaction of karma", "type": "Ice" },
+        { "text": "A realistic 10 year planning", "type": "Ground" },
+        { "text": "Snacks, just snacks", "type": "Bug" }
       ]
     },
     {
       "question": "Pick one to get rich:",
       "answers": [
-        { "text": "Gold", "type": "Normal" },
+        { "text": "Gold", "type": "Flying" },
         { "text": "OnlyFans", "type": "Poison" },
         { "text": "Real Estate", "type": "Ground" },
         { "text": "Bitcoin", "type": "Dragon" }

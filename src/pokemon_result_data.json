@@ -1,0 +1,123 @@
+{
+    "Water": {
+      "name": "Squirtle",
+      "headline": "💧 You are Squirtle",
+      "bio": "Chill, clever, and sharper than you let on — you’re the one who keeps cool when everyone else is losing it. Like Squirtle, you’re adaptable and quick to respond, sliding through life’s challenges with a smirk and a splash. You don’t seek the spotlight, but when it’s time to shine, you show up hard. Your strength isn’t in loud declarations — it’s in quiet confidence, well-timed comebacks, and knowing exactly when to strike.. You’re loyal to your crew, playful when you’re comfortable, and surprisingly strategic when it counts. People might mistake your laid-back vibe for passivity, but they’d be wrong — you’re just calculating when to unleash that hydro pump of brilliance.",
+      "hex": "#76C3E2",
+      "image": "squirtle.png",
+      "logo": "water_logo.png"
+    },
+    "Grass": {
+      "name": "Bulbasaur",
+      "headline": "🌱 You are Bulbasaur",
+      "bio": "Calm, grounded, and quietly powerful — you're the kind of person who brings steady growth and good vibes wherever you go. Like Bulbasaur, you don't rush into things blindly. You observe, you feel, and you bloom when the time is right. You value loyalty, nature, and thoughtful decisions. People trust you because you're dependable and nurturing, but they’d be wise not to underestimate you... and they'll be surprised at the strength you carry under those vines. You're not just here for the fight — you're here to grow.",
+      "hex": "#7AC74C",
+      "image": "bulbasaur.png",
+      "logo": "grass_logo.png"
+    },
+    "Dragon": {
+      "name": "Dragonair",
+      "headline": "🐉 You are Dragonair",
+      "bio": "Graceful, mysterious, and quietly untouchable — you're the type who walks into a room and shifts the energy without saying a word. Like Dragonair, you don’t seek attention — but it finds you anyway. There's a calm to you that hides something deeper: potential. The kind people sense but can't quite describe. You're evolving, always, but not in the way others expect — you’re not trying to impress. You’re aligning with something greater. You don’t roar. You resonate. Where others sprint, you glide. Where others fight, you flow. And just beneath that serene surface? Power. Ancient, limitless, waiting to be called upon. You are the storm in still water.",
+      "hex": "#7038F8",
+      "image": "dragonair.png",
+      "logo": "dragon_logo.png"
+    },
+    "Electric": {
+      "name": "Pikachu",
+      "headline": "⚡ You are Pikachu",
+      "bio": "Quick-witted, full of spark, and just the right amount of unpredictable — you're the kind of person who lights up a room… and occasionally fries the circuits. Like Pikachu, you’re charming without trying. People gravitate toward your playful energy, even if they’re never quite sure whether you’re going to high-five them or roast them with a zinger. You’ve got a big heart, but you’re no pushover — mess with your crew, and you’ll shock them into next week.. You don’t need the loudest voice to be heard. You lead with loyalty, laughter, and an electric sense of mischief. Let’s be real — you’re iconic. And you know it.",
+      "hex": "#F7D02C",
+      "image": "pikachu.png",
+      "logo": "electric_logo.png"
+    },
+    "Psychic": {
+      "name": "Mewtwo",
+      "headline": "🧬 You are Mewtwo",
+      "bio": "Powerful, intense, and impossible to ignore — you're the storm that others sense before it hits. Like Mewtwo, you don’t seek connection for comfort. You seek truth. Depth. Control. And maybe, just maybe… peace. People often misunderstand you — they see the power before they see the pain. But behind your calculated demeanor is a mind that never stops questioning, a soul that’s wrestled with purpose, and a will strong enough to shape reality. You're not here to fit in. You're here to transcend. Some people here are just Pokémon.  You?  You're the final boss fight.",
+      "hex": "#A040A0",
+      "image": "mewtwo.png",
+      "logo": "psychic_logo.png"
+    },
+    "Ground": {
+      "name": "Diglett",
+      "headline": "🪨 You are Diglett",
+      "bio": "Quiet, grounded, and always in your element — you’re the type who keeps it simple, but never shallow. Like Diglett, you don’t need flash or noise to get things done. You just tunnel forward. You’re the definition of low-maintenance. You mind your business, stick to your lane, and somehow still shake the foundation when you move. People might not see the whole picture when it comes to you — and that’s exactly how you like it. What’s beneath the surface? Strength. Strategy. Stillness. You’re not trying to be seen. You’re trying to grow, even in the dark..",
+      "hex": "#E2BF65",
+      "image": "diglett.png",
+      "logo": "ground_logo.png"
+    },
+    "Normal": {
+      "name": "Eevee",
+      "headline": "🌟 You are Eevee",
+      "bio": "Versatile, open-hearted, and full of unrealized potential — you’re a shapeshifter in the best sense of the word. You don’t need to choose a fixed path right now… because you could become anything. Like Eevee, you're observant, responsive, and constantly evolving based on your environment. You’re someone who collects experiences like stones — each one changing you just a little. And while others may try to define you, you know the truth: you define yourself. Some people burn, some flow, some fight.  You? You adapt, grow, and evolve. You’re not behind — you’re loading your final form.",
+      "hex": "#A8A77A",
+      "image": "eevee.png",
+      "logo": "normal_logo.png"
+    },
+    "Ghost": {
+      "name": "Haunter",
+      "headline": "👻 You are Haunter",
+      "bio": "Mischievous, magnetic, and a little bit unhinged — you're the type who keeps people guessing (and sometimes, mildly terrified). Like Haunter, you're playful on the outside... but let’s be honest: you live for the chaos. You’re the wild card in any group. You pop in, stir the pot, vanish into thin air — but somehow, people still adore you. Beneath your pranks and punchlines, though, is someone who's deeply aware. You notice the undercurrents. The unspoken. The shadows. You’re not here to be understood. You’re here to keep things interesting. You're part trickster, part phantom, part therapist in a trench coat. And you wouldn't have it any other way.",
+      "hex": "#705898",
+      "image": "haunter.png",
+      "logo": "ghost_logo.png"
+    },
+    "Fighting": {
+      "name": "Hitmonchan",
+      "headline": "🥊 You are Hitmonchan",
+      "bio": "Focused, disciplined, and always moving with purpose — you're not here to mess around. Like Hitmonchan, you don’t just react — you counter. Every action is calculated. Every hit is earned. You thrive under structure. Where others lose their cool, you breathe, assess, and strike. You believe in effort, training, and showing up when it matters — even if no one’s watching. You’ve got a fighter’s heart, but not because you like conflict… because you don’t back down. People talk about potential — you talk about putting in the reps. You're not here to show off. You're here to outlast, out-think, and outwork..",
+      "hex": "#C22E28",
+      "image": "hitmonchan.png",
+      "logo": "fighting_logo.png"
+    },
+    "Fire": {
+      "name": "Charmander",
+      "headline": "🔥 You are Charmander!",
+      "bio": "Bold, passionate, and undeniably intense — you’re the spark that turns ideas into action. Like Charmander, you carry your fire with pride. It flickers when you're uncertain, flares up when you're passionate, and never truly goes out. You don't do average. You're driven by a deep inner flame — whether it’s ambition, creativity, or pure curiosity — and that energy fuels everything you do. People might see you as impulsive or fiery at times, but they can't deny your courage or charisma. You’re the type who would rather try and fail spectacularly than play it safe. A risk-taker. A trailblazer. And when you’re fully in your element — you shine.",
+      "hex": "#EE8130",
+      "image": "charmander.png",
+      "logo": "fire_logo.png"
+    },
+    "Poison": {
+      "name": "Nidorina",
+      "headline": "🐾 You are Nidorina",
+      "bio": "Protective, resilient, and quietly powerful — you don’t need attention to know your worth. Like Nidorina, you show up for the people you care about, and you don’t flinch when things get tough. You’re not loud — you’re loyal. You don’t bark — you bite when it counts. You're the emotional tank — the one who carries others without asking for credit. You're soft-spoken, but your presence is grounding. And while you may seem reserved to outsiders, those who know you best? They know you're built like a fortress with a velvet lining. You're not the loudest in the room. You're the one people turn to when it all falls apart — and you hold it together.",
+      "hex": "#A33EA1",
+      "image": "nidorina.png",
+      "logo": "poison_logo.png"
+    },
+    "Ice": {
+      "name": "Jynx",
+      "headline": "💋 You are Jynx",
+      "bio": "Elegant, eccentric, and unafraid to be misunderstood — you’re the kind of person who walks your own path, and looks fabulous doing it. Like Jynx, you’re a paradox: cool on the outside, intense underneath. You move through life with confidence and charisma, but there's deep intuition behind every step. People may focus on your style, your voice, or your presence — but those who know you best? They know your power is mental. You don’t just read a room — you shift it. You don’t follow trends — you become them. You're part mystic, part ice queen, part chaos — and you're fully unforgettable. You're not everyone's cup of tea — you're a full-bodied glass of psychic wine.",
+      "hex": "#96D9D6",
+      "image": "jynx.png",
+      "logo": "ice_logo.png"
+    },
+    "Bug": {
+      "name": "Butterfree",
+      "headline": "🦋 You are Butterfree.",
+      "bio": "Soft on the surface, strong at the core — you're the kind of person who floats through chaos with grace, but never by accident. Like Butterfree, you've been through metamorphosis. You’ve earned your wings. You're naturally empathetic — you read energy, pick up on vibes, and bring calm into noisy spaces. People might underestimate you because you're gentle… until they realize gentleness is your choice, not your limitation. You’ve got healing in your presence, strength in your boundaries, and a beauty that doesn’t beg to be seen — it just is. You don’t overpower — you uplift. You don’t force — you flow.",
+      "hex": "#A6B91A",
+      "image": "butterfree.png",
+      "logo": "bug_logo.png"
+    },
+    "Flying": {
+      "name": "Pidgeotto",
+      "headline": "🪶 You are Pidgeotto",
+      "bio": "Focused, free-spirited, and always watching from above — you're the kind of person who sees the big picture before anyone else. Like Pidgeotto, you glide through life with confidence, sharp instincts, and a deep need for independence. You're not afraid to rise above the noise. You’re loyal, but not clingy. Present, but never trapped. People count on you because you move fast, act with precision, and always circle back when it matters. You’re not chasing chaos — you’re riding the wind. You don’t need a spotlight to shine — just a little altitude.",
+      "hex": "#A98FF3",
+      "image": "pidgeotto.png",
+      "logo": "flying_logo.png"
+    },
+    "Rock": {
+      "name": "Onix",
+      "headline": "🪨 You are Onix.",
+      "bio": "Strong, silent, and impossible to ignore — you are the foundation others build on, even if they rarely say thank you. Like Onix, you're not flashy. You're not polished. But you're solid, dependable, and when you move, the earth feels it. You’ve mastered the art of holding steady in chaos, of standing tall when everything else breaks. You don’t crack under pressure — you become pressure. People might underestimate you. Let them. You’re not here for approval — you’re here to build mountains and weather storms. You're not the loudest voice in the room — you're the rumble underneath it.",
+      "hex": "#B6A136",
+      "image": "onix.png",
+      "logo": "rock_logo.png"
+    }
+  }
+  
