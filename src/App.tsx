@@ -78,12 +78,13 @@ const App = () => {
       )}
 
       {state.screen === "loading" && <LoadingScreen />}
-      {state.screen === "result" && (
-        <ResultScreen
-          resultType={state.quizState.resultType}
-          onRestart={() => dispatch({ type: "RESTART" })}
-        />
-      )}
+      {state.screen === "result" && state.quizState.resultType && (
+      <ResultScreen
+        resultType={state.quizState.resultType}
+        onRestart={() => dispatch({ type: "RESTART" })}
+      />
+    )}
+
     </>
   );
 };
