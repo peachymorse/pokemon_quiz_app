@@ -1,13 +1,12 @@
 .result-container {
     text-align: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'DM sans', sans-serif;
     color: #333;
     max-width: 400px;
     margin: 0 auto;
   }
   
   .result-header {
-    width: 100vw;
     height: 200px;
     background: linear-gradient(to bottom, var(--theme-color) 0%, transparent 100%);
     border-bottom-left-radius: 50% 100%;

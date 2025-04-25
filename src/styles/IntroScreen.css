@@ -1,0 +1,65 @@
+.intro {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .intro-header {
+    background-color: #b83227;
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .intro-title {
+    height: 42px;
+    object-fit: contain;
+  }
+  
+  .intro-content {
+    flex: 1;
+    padding: 24px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .intro-text {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  
+  .intro-image {
+    background-image: url("/assets/oak_intro.png"); /* Replace with your Oak image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    margin: 20px 0;
+    opacity: 0.95;
+  }
+  
+  .intro-button {
+    background-color: #b83227;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 28px;
+    margin-top: 16px;
+    width: 80%;
+    max-width: 280px;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  

@@ -34,7 +34,7 @@
     "Psychic": {
       "name": "Mewtwo",
       "headline": "🧬 You are Mewtwo",
-      "bio": "Powerful, intense, and impossible to ignore — you're the storm that others sense before it hits. Like Mewtwo, you don’t seek connection for comfort. You seek truth. Depth. Control. And maybe, just maybe… peace. People often misunderstand you — they see the power before they see the pain. But behind your calculated demeanor is a mind that never stops questioning, a soul that’s wrestled with purpose, and a will strong enough to shape reality. You're not here to fit in. You're here to transcend. Some people here are just Pokémon.  You?  You're the final boss fight.",
+      "bio": "Powerful, intense, and impossible to ignore — you're the storm that others sense before it hits. Like Mewtwo, you don’t seek connection for comfort. You seek truth. Depth. Control. And maybe, just maybe… peace. People often misunderstand you — they see the power before they see the pain. But behind your calculated demeanor is a mind that never stops questioning, a soul that’s wrestled with purpose, and a will strong enough to shape reality. You're not here to fit in. You're here to transcend. Some people here are just Pokémon. You?  You're the final boss fight.",
       "hex": "#A040A0",
       "image": "mewtwo.png",
       "logo": "psychic_logo.png"
@@ -50,9 +50,9 @@
     "Normal": {
       "name": "Eevee",
       "headline": "🌟 You are Eevee",
-      "bio": "Versatile, open-hearted, and full of unrealized potential — you’re a shapeshifter in the best sense of the word. You don’t need to choose a fixed path right now… because you could become anything. Like Eevee, you're observant, responsive, and constantly evolving based on your environment. You’re someone who collects experiences like stones — each one changing you just a little. And while others may try to define you, you know the truth: you define yourself. Some people burn, some flow, some fight.  You? You adapt, grow, and evolve. You’re not behind — you’re loading your final form.",
+      "bio": "Versatile, open-hearted, and full of unrealized potential — you’re a shapeshifter in the best sense of the word. You don’t need to choose a fixed path right now… because you could become anything. Like Eevee, you're observant, responsive, and constantly evolving based on your environment. You’re someone who collects experiences like stones — each one changing you just a little. And while others may try to define you, you know the truth: you define yourself. Some people burn, some flow, some fight. You? You adapt, grow, and evolve. You’re not behind — you’re loading your final form.",
       "hex": "#A8A77A",
-      "image": "eevee.png",
+      "image": "evee.png",
       "logo": "normal_logo.png"
     },
     "Ghost": {

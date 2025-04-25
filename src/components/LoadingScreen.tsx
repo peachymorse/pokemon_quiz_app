@@ -1,12 +1,15 @@
+import React from "react";
+import "../styles/LoadingScreen.css"; 
+
 const LoadingScreen = () => {
-    return (
-      <div className="screen loading-screen">
-        <h1>Pokémon</h1>
-        <div className="pokeball-spinner" />
-        <p>The Pokédex is analyzing your results...</p>
+  return (
+    <div className="loading-container">
+      <div className="pokeball">
+        <div className="pokeball__button"></div>
       </div>
-    );
-  };
-  
-  export default LoadingScreen;
-  
+      <p className="loading-text">Calculating your Pokémon...</p>
+    </div>
+  );
+};
+
+export default LoadingScreen;
