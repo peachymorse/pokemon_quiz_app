@@ -53,7 +53,7 @@ const appReducer = (state: AppState, action: AppAction): AppState => {
 const App = () => {
   const [state, dispatch] = useReducer(appReducer, initialAppState);
 
-  console.log("Current screen:", state.screen); // 👈 ADD THIS
+  console.log("Current screen:", state.screen); // 
 
   return (
     <>

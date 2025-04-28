@@ -7,28 +7,46 @@ interface Props {
 
 const IntroScreen = ({ onStart }: Props) => {
   return (
-    <div className="intro">
-      <div className="intro-header">
+    <div className="intro-container">
+      <header className="intro-header">
         <img
           src="https://fontmeme.com/permalink/250425/3b3bd65287159fc3a036b39439eeb1b6.png"
           alt="Which Pokémon are you?"
           className="intro-title"
         />
-      </div>
+      </header>
 
-      <div className="intro-content">
-        <p className="intro-text">
-          You will be asked 15 questions. <br />
-          Our smart pokedex will then build a profile for you and match you to a Pokémon.
-        </p>
-        <p className="intro-text">Your very own adventure awaits. Let’s get started.</p>
+      <main className="intro-main">
+        <section className="intro-text">
+          <h1>Welcome to the Pokémon Personality Test</h1><br></br>
+          <h4>Have you ever wondered, what it'd be like to be a Pokémon?</h4><br></br>
+          <p>Take this test, and find out!</p><br></br>
+          <p>You will be asked up to 5 random questions.</p>
+          <p>Select one of the four multiple choice answers.</p><br></br>
+          <p>Our smart Pokédex will then analyse your personality type and match you with a Pokémon.</p><br></br>
+          <p>Your very own self-discovery adventure awaits.</p>
+          <p>Let’s get started.</p>
+        </section>
 
-        <div className="intro-image" />
+        <section className="intro-visuals">
+          <img
+            src="/assets/pokemon_image.png"
+            alt="Pokémon background"
+            className="intro-background"
+          />
+          <img
+            src="/assets/oak_intro.png"
+            alt="Professor Oak"
+            className="intro-oak"
+          />
+        </section>
+      </main>
 
+      <footer className="intro-footer">
         <button className="intro-button" onClick={onStart}>
-          Let’s GO!
+          Let's Go!
         </button>
-      </div>
+      </footer>
     </div>
   );
 };

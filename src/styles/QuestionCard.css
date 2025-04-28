@@ -1,0 +1,81 @@
+
+.question-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    overflow-y: auto;
+    padding: 24px 16px;
+  }
+  
+  
+  .question-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 12px;
+  }
+  
+  .question-text {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 0 16px;
+  }
+  
+  /* Answer Grid */
+  .answer-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    flex-grow: 1;
+    align-content: center;
+  }
+  
+  /* Answer Card */
+  .answer-card {
+    background: white;
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1.1;
+    padding: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .answer-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Answer Image */
+  .answer-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  
+  .answer-text {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    padding: 0 8px;
+  }
+  
+ 
+  .answer-card.selected {
+    border-color: #ffcb05; /* Pokémon electric yellow */
+    transform: scale(1.05);
+    box-shadow: none; /* No glow */
+  }
+  

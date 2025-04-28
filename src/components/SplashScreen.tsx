@@ -7,21 +7,28 @@ interface Props {
 
 const SplashScreen = ({ onNext }: Props) => {
   return (
-    <div className="splash">
-      <div className="splash-header">
+    <div className="splash-container">
+      <header className="splash-header">
         <img
           src="https://fontmeme.com/permalink/250425/3b3bd65287159fc3a036b39439eeb1b6.png"
           alt="Which Pokémon are you?"
           className="splash-title"
         />
-      </div>
+      </header>
 
-      <div className="splash-art" />
+      <main className="splash-main">
+        <img
+          src="/assets/splash/splash_bg.png"
+          className="splash-background"
+          alt="Splash Background"
+        />
 
-      <button className="splash-button" onClick={onNext}>
-        Start Quiz
-      </button>
-      
+        <footer className="splash-footer">
+          <button className="splash-button" onClick={onNext}>
+            Start Quiz
+          </button>
+        </footer>
+      </main>
     </div>
   );
 };

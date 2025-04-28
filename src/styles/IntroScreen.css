@@ -1,65 +1,88 @@
-.intro {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-  }
-  
-  .intro-header {
-    background-color: #b83227;
-    width: 100%;
-    padding: 12px 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .intro-title {
-    height: 42px;
-    object-fit: contain;
-  }
-  
-  .intro-content {
-    flex: 1;
-    padding: 24px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .intro-text {
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
-    margin-bottom: 12px;
-  }
-  
-  .intro-image {
-    background-image: url("/assets/oak_intro.png"); /* Replace with your Oak image */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    max-width: 300px;
-    height: 200px;
-    margin: 20px 0;
-    opacity: 0.95;
-  }
-  
-  .intro-button {
-    background-color: #b83227;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 20px;
-    padding: 12px 28px;
-    margin-top: 16px;
-    width: 80%;
-    max-width: 280px;
-    font-family: inherit;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  }
-  
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: white;
+  overflow: hidden;
+}
+
+.intro-header {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #b83227;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-title {
+  height: 48px;
+  object-fit: contain;
+}
+
+.intro-main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.intro-text {
+  margin-bottom: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.intro-visuals {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.intro-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  opacity: 0.5;
+}
+
+.intro-oak {
+  position: absolute;
+  bottom: -30px;
+  left: 65%;
+  transform: translateX(-50%);
+  width: 120px;
+  z-index: 2;
+}
+
+.intro-footer {
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.intro-button {
+  background-color: #b83227;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 24px;
+  padding: 14px 28px;
+  width: 80%;
+  max-width: 280px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

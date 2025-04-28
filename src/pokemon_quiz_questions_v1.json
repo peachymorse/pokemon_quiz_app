@@ -1,29 +1,66 @@
 [
-    {
-      "question": "You’re given $1m to buy your dream house, where would you build it?",
-      "answers": [
-        { "text": "A beach house near the ocean", "type": "Water" },
-        { "text": "An eco-home in the forest", "type": "Grass" },
-        { "text": "A castle in the mountains", "type": "Dragon" },
-        { "text": "A luxury apartment in the city", "type": "Electric" }
-      ]
+  {
+    "question": "You’re given $1m to buy your dream house, which location would you choose to build it in?",
+    "answers": [
+      {
+        "text": "A beach house near the ocean",
+        "type": "Water",
+        "image": "beach-house.png"
+      },
+      {
+        "text": "An eco-home in the forest",
+        "type": "Grass",
+        "image": "eco-home.png"
+      },
+      {
+        "text": "A castle in the mountains",
+        "type": "Dragon",
+        "image": "castle.png"
+      },
+      {
+        "text": "A luxury apartment in the city",
+        "type": "Electric",
+        "image": "condo.png"
+      }
+    ]
     },
     {
       "question": "You’re faced with a tough decision — what do you trust most?",
       "answers": [
-        { "text": "My gut instinct", "type": "Psychic" },
-        { "text": "My emotions", "type": "Water" },
-        { "text": "Cold, hard logic", "type": "Ground" },
-        { "text": "Whatever everyone else is doing", "type": "Normal" }
+        {
+          "text": "My gut instinct",
+          "type": "Psychic",
+          "image": "gut.png"
+        },
+        {
+        "text": "My emotions",
+        "type": "Water",
+        "image": "emotions.png"},
+        {
+        "text": "Cold, hard logic",
+        "type": "Ground",
+        "image": "logic.png"},
+        {
+        "text": "Whatever everyone else is doing",
+        "type": "Normal",
+        "image": "everyone.png" }
       ]
     },
     {
       "question": "What’s your ideal superpower?",
       "answers": [
-        { "text": "Invisibility", "type": "Ghost" },
-        { "text": "Telepathy", "type": "Psychic" },
-        { "text": "Super strength", "type": "Fighting" },
-        { "text": "Shapeshifting", "type": "Water" }
+        { 
+          
+        "text": "Invisibility", "type": "Ghost", "image": "invisible.png" },
+        { 
+          
+        "text": "Telepathy", "type": "Psychic", "image": "telepathic.png" },
+        { 
+          
+        "text": "Super strength", "type": "Fighting", "image": "strength.png" },
+        { 
+          
+        "text": "Shapeshifting", "type": "Water", "image": "shapeshift.png" }
       ]
     },
     {

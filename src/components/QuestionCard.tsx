@@ -1,4 +1,6 @@
 import { Question } from "../types";
+import "../styles/QuestionCard.css";
+
 
 interface Props {
   question: Question;
@@ -13,14 +15,20 @@ const QuestionCard = ({ question, questionIndex, onAnswerSelect }: Props) => {
       <p className="question-text">{question.question}</p>
       <div className="answer-options">
         {question.answers.map((answer, index) => (
-          <button
-            key={index}
-            className="answer-button"
-            onClick={() => onAnswerSelect(index)}
-          >
-            {answer.text}
-          </button>
-        ))}
+        <button
+          key={index}
+          className="answer-card"
+          onClick={() => onAnswerSelect(index)}
+        >
+    <img
+      src={`/assets/answers/${answer.image}`}
+      alt={answer.text}
+      className="answer-image"
+    />
+    <p className="answer-text">{answer.text}</p>
+    </button>
+    ))}
+
       </div>
     </div>
   );
