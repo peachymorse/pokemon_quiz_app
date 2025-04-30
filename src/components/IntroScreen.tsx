@@ -28,12 +28,18 @@ const IntroScreen = ({ onStart }: Props) => {
         </section>
 
         <section className="intro-visuals">
-          <img
-            src="/assets/oak_intro.png"
-            alt="Professor Oak"
-            className="intro-oak"
-          />
-        </section>
+  <img
+    src="/assets/oak_intro.png"
+    alt="Professor Oak"
+    className="intro-oak"
+  />
+  <img
+    src="/assets/pika.gif"
+    alt="Pikachu"
+    className="intro-pikachu"
+  />
+</section>
+
       </main>
 
       <footer className="intro-footer">

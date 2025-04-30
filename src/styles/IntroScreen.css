@@ -66,6 +66,16 @@
   z-index: 2;
 }
 
+.intro-pikachu {
+  position: absolute;
+  bottom: -15px;
+  right: 55%;
+  transform: translateX(50%);
+  width: 50%;
+  z-index: 1;
+}
+
+
 .intro-footer {
   flex-shrink: 0;
   width: 100%;
