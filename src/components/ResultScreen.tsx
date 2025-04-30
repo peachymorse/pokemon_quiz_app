@@ -41,10 +41,18 @@ const ResultScreen = ({ resultType, onRestart }: Props) => {
 
       <h3 className="result-headline">{result.headline}</h3>
       <p className="result-bio">{result.bio}</p>
+      <footer className="result-footer">
+  <button
+    className="result-button"
+    style={{
+      "--theme-color": result.hex,
+    } as React.CSSProperties}
+    onClick={onRestart}
+  >
+    Restart Quiz?
+  </button>
+</footer>
 
-      <button className="restart-button" onClick={onRestart}>
-        Restart Quiz?
-      </button>
     </div>
   );
 };

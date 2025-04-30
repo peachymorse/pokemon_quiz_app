@@ -21,7 +21,7 @@ const QuestionCard = ({ question, questionIndex, onAnswerSelect }: Props) => {
           onClick={() => onAnswerSelect(index)}
         >
     <img
-      src={`/assets/answers/${answer.image}`}
+      src={`assets/${answer.image}`}
       alt={answer.text}
       className="answer-image"
     />

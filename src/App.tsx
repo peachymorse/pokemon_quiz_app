@@ -1,5 +1,4 @@
 import { useReducer } from "react";
-import SplashScreen from "./components/SplashScreen";
 import IntroScreen from "./components/IntroScreen";
 import Quiz from "./components/Quiz";
 import LoadingScreen from "./components/LoadingScreen";
@@ -29,9 +28,10 @@ const initialQuizState: QuizState = {
 };
 
 const initialAppState: AppState = {
-  screen: "splash",
+  screen: "intro", 
   quizState: initialQuizState
 };
+
 
 const appReducer = (state: AppState, action: AppAction): AppState => {
   switch (action.type) {
@@ -57,9 +57,6 @@ const App = () => {
 
   return (
     <>
-      {state.screen === "splash" && (
-        <SplashScreen onNext={() => dispatch({ type: "GO_TO_INTRO" })} />
-      )}
 
       {state.screen === "intro" && (
         <IntroScreen onStart={() => dispatch({ type: "START_QUIZ" })} />

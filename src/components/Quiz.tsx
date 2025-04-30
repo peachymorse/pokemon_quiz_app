@@ -18,7 +18,7 @@ type Action =
 interface InternalState {
   currentQuestionIndex: number;
   typeTally: Record<string, number>;
-  selectedQuestionIndices: number[]; // track which questions were answered
+  selectedQuestionIndices: number[]; 
   completed: boolean;
   resultType?: string;
 }
@@ -87,7 +87,7 @@ const Quiz = ({ onComplete }: Props) => {
         onComplete({
             currentQuestionIndex: state.currentQuestionIndex,
             typeTally: state.typeTally,
-            selectedAnswers: state.selectedQuestionIndices, 
+            selectedAnswers: state.selectedQuestionIndices,
             completed: true,
             resultType: state.resultType,
           });
@@ -100,6 +100,7 @@ const Quiz = ({ onComplete }: Props) => {
   const current = quizQuestions[state.currentQuestionIndex];
 
   return (
+   <div className="quiz-container">
     <QuestionCard
       question={current}
       questionIndex={state.currentQuestionIndex}
@@ -113,6 +114,7 @@ const Quiz = ({ onComplete }: Props) => {
         })
       }
     />
+    </div> 
   );
 };
 

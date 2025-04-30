@@ -20,20 +20,14 @@ const IntroScreen = ({ onStart }: Props) => {
         <section className="intro-text">
           <h1>Welcome to the Pokémon Personality Test</h1><br></br>
           <h4>Have you ever wondered, what it'd be like to be a Pokémon?</h4><br></br>
-          <p>Take this test, and find out!</p><br></br>
+          <p>Take this test, and find out!</p>
           <p>You will be asked up to 5 random questions.</p>
           <p>Select one of the four multiple choice answers.</p><br></br>
           <p>Our smart Pokédex will then analyse your personality type and match you with a Pokémon.</p><br></br>
-          <p>Your very own self-discovery adventure awaits.</p>
           <p>Let’s get started.</p>
         </section>
 
         <section className="intro-visuals">
-          <img
-            src="/assets/pokemon_image.png"
-            alt="Pokémon background"
-            className="intro-background"
-          />
           <img
             src="/assets/oak_intro.png"
             alt="Professor Oak"

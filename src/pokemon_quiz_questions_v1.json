@@ -54,7 +54,7 @@
         "text": "Invisibility", "type": "Ghost", "image": "invisible.png" },
         { 
           
-        "text": "Telepathy", "type": "Psychic", "image": "telepathic.png" },
+        "text": "Telepathy", "type": "Psychic", "image": "telepathy.png" },
         { 
           
         "text": "Super strength", "type": "Fighting", "image": "strength.png" },
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "question": "What keeps you going in life?:",
+      "question": "What keeps you going in life?",
       "answers": [
         { "text": "Routine and comfort", "type": "Normal" },
         { "text": "The sweet satisfaction of karma", "type": "Ice" },
