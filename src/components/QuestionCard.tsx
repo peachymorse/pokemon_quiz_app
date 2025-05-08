@@ -24,6 +24,7 @@ const QuestionCard = ({ question, questionIndex, onAnswerSelect }: Props) => {
       src={`assets/${answer.image}`}
       alt={answer.text}
       className="answer-image"
+      loading="lazy"
     />
     <p className="answer-text">{answer.text}</p>
     </button>
