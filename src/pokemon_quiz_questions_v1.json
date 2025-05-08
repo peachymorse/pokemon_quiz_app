@@ -1,6 +1,6 @@
 [
   {
-    "question": "Which location would you choose to build your dream home?",
+    "question": "Where would you build your dream home?",
     "answers": [
       {
         "text": "A beach house near the ocean",
@@ -25,7 +25,7 @@
     ]
     },
     {
-      "question": "You’re faced with a tough decision — what do you trust most?",
+      "question": "Facing a tough decision — what do you trust most?",
       "answers": [
         {
           "text": "My gut instinct",

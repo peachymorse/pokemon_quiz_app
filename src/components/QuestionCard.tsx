@@ -1,7 +1,6 @@
 import { Question } from "../types";
 import "../styles/QuestionCard.css";
 
-
 interface Props {
   question: Question;
   questionIndex: number;
@@ -15,21 +14,22 @@ const QuestionCard = ({ question, questionIndex, onAnswerSelect }: Props) => {
       <p className="question-text">{question.question}</p>
       <div className="answer-options">
         {question.answers.map((answer, index) => (
-        <button
-          key={index}
-          className="answer-card"
-          onClick={() => onAnswerSelect(index)}
-        >
-    <img
-      src={`assets/${answer.image}`}
-      alt={answer.text}
-      className="answer-image"
-      loading="lazy"
-    />
-    <p className="answer-text">{answer.text}</p>
-    </button>
-    ))}
-
+          <button
+            key={index}
+            className="answer-card"
+            onClick={() => onAnswerSelect(index)}
+          >
+            <div className="answer-image-wrapper">
+              <img
+                src={`assets/${answer.image}`}
+                alt={answer.text}
+                className="answer-image"
+                loading="lazy"
+              />
+            </div>
+            <p className="answer-text">{answer.text}</p>
+          </button>
+        ))}
       </div>
     </div>
   );

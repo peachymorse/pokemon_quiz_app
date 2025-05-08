@@ -27,6 +27,7 @@ const ResultScreen = ({ resultType, onRestart }: Props) => {
           src={`/assets/${pokemon.image}`}
           alt={pokemon.name}
           className="pokemon-image"
+          loading="lazy"
         />
       </div>
 
@@ -36,6 +37,7 @@ const ResultScreen = ({ resultType, onRestart }: Props) => {
         src={`/assets/${pokemon.logo}`}
         alt={`${pokemon.name} type`}
         className="type-logo"
+        loading="lazy"
       />
 
       <h3 className="result-headline">{pokemon.headline}</h3>
