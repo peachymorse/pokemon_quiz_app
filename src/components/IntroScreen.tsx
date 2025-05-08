@@ -7,7 +7,7 @@ interface Props {
 
 const IntroScreen = ({ onStart }: Props) => {
   return (
-    <div className="intro-container">
+    <div className="intro-wrapper">
       <header className="intro-header">
         <img
           src="https://fontmeme.com/permalink/250425/3b3bd65287159fc3a036b39439eeb1b6.png"
@@ -17,30 +17,19 @@ const IntroScreen = ({ onStart }: Props) => {
       </header>
 
       <main className="intro-main">
-        <section className="intro-text">
-          <h1>Welcome to the Pokémon Personality Test</h1><br></br>
-          <h4>Have you ever wondered, what it'd be like to be a Pokémon?</h4><br></br>
+        <div className="intro-text-box">
+          <h1>Welcome to my Pokémon themed Personality Test</h1><br />
+          <h4>Have you ever wondered, what it'd be like to be a (Kanto) Pokémon?</h4><br />
           <p>Take this test, and find out!</p>
           <p>You will be asked up to 5 random questions.</p>
-          <p>Select one of the four multiple choice answers.</p><br></br>
-          <p>Our smart Pokédex will then analyse your personality type and match you with a Pokémon.</p><br></br>
+          <p>Select one of the four multiple choice answers.</p><br />
+          <p>Our smart Pokédex will then analyse your personality type and match you with a Pokémon.</p><br />
           <p>Let’s get started.</p>
-        </section>
-
-        <section className="intro-visuals">
-  <img
-    src="/assets/oak_intro.png"
-    alt="Professor Oak"
-    className="intro-oak"
-  />
-  <img
-    src="/assets/pika.gif"
-    alt="Pikachu"
-    className="intro-pikachu"
-  />
-</section>
-
+        </div>
       </main>
+
+      <img src="/assets/oak_intro.png" alt="Professor Oak" className="intro-oak" />
+      <img src="/assets/pika.gif" alt="Pikachu" className="intro-pikachu" />
 
       <footer className="intro-footer">
         <button className="intro-button" onClick={onStart}>

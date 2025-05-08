@@ -15,7 +15,15 @@
   color: black;
   text-align: center;
   margin-bottom: 0.5rem;
+  line-height: 1.4;
+  max-width: 90vw;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
+
 
 .question-text {
   font-size: 1.125rem;
@@ -76,4 +84,51 @@
   text-align: center;
   padding: 0 0.5rem;
   font-family: 'Comic Sans MS', sans-serif;
+
+  min-height: 4.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* --- Hover Bounce --- */
+.answer-card:hover {
+  transform: translateY(-0.25rem) scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* --- Entry Animation --- */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.answer-card {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+/* --- Wiggle on selection --- */
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+}
+
+.answer-card.selected {
+  animation: wiggle 0.3s ease;
+  border-color: #ffcb05;
+  box-shadow: 0 0 1rem rgba(255, 203, 5, 0.4);
+}
+

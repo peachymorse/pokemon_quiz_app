@@ -1,6 +1,6 @@
 [
   {
-    "question": "You’re given $1m to buy your dream house, which location would you choose to build it in?",
+    "question": "Which location would you choose to build your dream home?",
     "answers": [
       {
         "text": "A beach house near the ocean",
@@ -18,7 +18,7 @@
         "image": "castle.png"
       },
       {
-        "text": "A luxury apartment in the city",
+        "text": "A luxury city condo",
         "type": "Electric",
         "image": "condo.png"
       }
@@ -41,7 +41,7 @@
         "type": "Ground",
         "image": "logic.png"},
         {
-        "text": "Whatever everyone else is doing",
+        "text": "Advice from others",
         "type": "Normal",
         "image": "everyone.png" }
       ]
@@ -66,110 +66,109 @@
     {
       "question": "Pick a weapon for the end of the world.",
       "answers": [
-        { "text": "Baseball bat", "type": "Fighting" },
-        { "text": "Lightsaber", "type": "Fire" },
-        { "text": "Samurai sword", "type": "Dragon" },
-        { "text": "Machete", "type": "Grass" }
+        { "text": "Baseball bat", "type": "Fighting", "image": "bat.png" },
+        { "text": "Lightsaber", "type": "Fire", "image": "lightsaber.png" },
+        { "text": "Samurai sword", "type": "Dragon", "image": "samurai.png" },
+        { "text": "Machete", "type": "Grass", "image": "machete.png" }
       ]
     },
     {
       "question": "Choose one that best describes your love life:",
       "answers": [
-        { "text": "I’ve found the one", "type": "Electric" },
-        { "text": "Thinking about my ex", "type": "Poison" },
-        { "text": "Friends with benefits", "type": "Ice" },
-        { "text": "Tragically single", "type": "Ghost" }
+        { "text": "I’ve found the one", "type": "Electric", "image": "love.png" },
+        { "text": "Thinking about my ex", "type": "Poison", "image": "ex.png" },
+        { "text": "Friends with benefits", "type": "Ice", "image": "fwb.png" },
+        { "text": "Tragically very single", "type": "Ghost", "image": "single.png" }
       ]
     },
     {
       "question": "Pick the video gaming GOAT:",
       "answers": [
-        { "text": "Nintendo", "type": "Dragon" },
-        { "text": "PlayStation or Xbox", "type": "Fire" },
-        { "text": "PC", "type": "Electric" },
-        { "text": "I don’t play video games", "type": "Normal" }
+        { "text": "Nintendo", "type": "Dragon", "image": "nintendo.png" },
+        { "text": "PlayStation or Xbox", "type": "Fire", "image": "psvx.png" },
+        { "text": "PC", "type": "Electric", "image": "pc.png" },
+        { "text": "I don’t play video games", "type": "Normal", "image": "nogame.png" }
       ]
     },
     {
       "question": "Pick your vibe:",
       "answers": [
-        { "text": "Quietly unhinged", "type": "Bug" },
-        { "text": "Breezing through life", "type": "Flying" },
-        { "text": "Just here for the snacks", "type": "Bug" },
-        { "text": "Built different", "type": "Rock" }
+        { "text": "Quietly unhinged", "type": "Bug", "image": "unhinged.png" },
+        { "text": "Breezing through life", "type": "Flying", "image": "breezing.png" },
+        { "text": "Just here for the snacks", "type": "Bug", "image": "snacks.png" },
+        { "text": "Built different", "type": "Rock", "image": "different.png" }
       ]
     },
     {
       "question": "Which Pokémon clan are you repping?",
       "answers": [
-        { "text": "Team Valor (Red)", "type": "Fire" },
-        { "text": "Team Mystic (Blue)", "type": "Water" },
-        { "text": "Team Instinct (Yellow)", "type": "Electric" },
-        { "text": "Team Rocket", "type": "Poison" }
+        { "text": "Team Valor   (Red)", "type": "Fire", "image": "valor.png" },
+        { "text": "Team Mystic (Blue)", "type": "Water", "image": "mystic.png" },
+        { "text": "Team Instinct (Yellow)", "type": "Electric", "image": "instinct.png" },
+        { "text": "Team Rocket (Black)", "type": "Poison", "image": "rocket.png" }
       ]
     },
     {
       "question": "You’ve time-travelled to the caveman era. How are you hunting for food?",
       "answers": [
-        { "text": "Scavenge for bugs and insects", "type": "Bug" },
-        { "text": "Set a trap to catch a bird or small animal", "type": "Flying" },
-        { "text": "Forage for mushrooms and berries", "type": "Poison" },
-        { "text": "Craft a spear and hunting knife for big prey", "type": "Rock" }
+        { "text": "Scavenge for bugs and insects", "type": "Bug", "image": "scavenge.png" },
+        { "text": "Set a trap to catch a bird or small animal", "type": "Flying", "image": "trap.png" },
+        { "text": "Forage for mushrooms and berries", "type": "Poison", "image": "berries.png" },
+        { "text": "Craft a spear for hunting big prey", "type": "Rock", "image": "spear.png" }
       ]
     },
     {
       "question": "How do you prepare for a big day?",
       "answers": [
-        { "text": "Blast music to hype yourself up", "type": "Fire" },
-        { "text": "Hit the gym or go for a run", "type": "Fighting" },
-        { "text": "Ignore everyone and stay focused", "type": "Ice" },
-        { "text": "Visualize every possible outcome", "type": "Psychic" }
+        { "text": "Blast music to hype yourself up", "type": "Fire", "image": "blasting.png" },
+        { "text": "Hit the gym or go for a run", "type": "Fighting", "image": "gym.png" },
+        { "text": "Ignore everyone and stay focused", "type": "Ice", "image": "ignore.png" },
+        { "text": "Visualize every possible outcome", "type": "Psychic", "image": "visualize.png" }
       ]
     },
     {
       "question": "Pick a hobby you’d like to try:",
       "answers": [
-        { "text": "Catching & studying butterflies", "type": "Flying" },
-        { "text": "Exploring abandoned buildings", "type": "Ghost" },
-        { "text": "Growing your own vegetables", "type": "Grass" },
-        { "text": "Collecting fossils", "type": "Rock" }
+        { "text": "Catching & studying butterflies", "type": "Flying", "image": "catcher.png" },
+        { "text": "Exploring abandoned buildings", "type": "Ghost", "image": "abandon.png" },
+        { "text": "Growing your own vegetables", "type": "Grass", "image": "vegetable.png" },
+        { "text": "Collecting fossils", "type": "Rock", "image": "collector.png" }
       ]
     },
     {
       "question": "What’s your favourite movie genre?",
       "answers": [
-        { "text": "Action", "type": "Fighting" },
-        { "text": "Sci-fi", "type": "Psychic" },
-        { "text": "Comedy", "type": "Grass" },
-        { "text": "Horror", "type": "Ghost" }
+        { "text": "Action", "type": "Fighting", "image": "action.png" },
+        { "text": "Sci-fi", "type": "Psychic", "image": "scifi.png" },
+        { "text": "Comedy", "type": "Grass", "image": "comedy.png" },
+        { "text": "Horror", "type": "Ghost", "image": "horror.png" }
       ]
     },
     {
       "question": "How do you handle stress?",
       "answers": [
-        { "text": "Go for a walk to clear your head", "type": "Ground" },
-        { "text": "Focus on something practical and small", "type": "Rock" },
-        { "text": "Say nothing and bottle it all up", "type": "Ice" },
-        { "text": "Talk it out with friends and move on", "type": "Normal" }
+        { "text": "Go for a walk", "type": "Ground", "image": "walk.png" },
+        { "text": "Focus on something practical", "type": "Rock", "image": "practical.png" },
+        { "text": "Say nothing, bottle it up", "type": "Ice", "image": "bottle.png" },
+        { "text": "Talk it out with friends", "type": "Normal", "image": "talk.png" }
       ]
     },
     {
       "question": "What keeps you going in life?",
       "answers": [
-        { "text": "Routine and comfort", "type": "Normal" },
-        { "text": "The sweet satisfaction of karma", "type": "Ice" },
-        { "text": "A realistic 10 year planning", "type": "Ground" },
-        { "text": "Snacks, just snacks", "type": "Bug" }
+        { "text": "Routine and comfort", "type": "Normal", "image": "comfort.png" },
+        { "text": "The satisfaction of karma", "type": "Ice", "image": "karma.png" },
+        { "text": "A realistic 10 year plan", "type": "Ground", "image": "10yr.png" },
+        { "text": "Snacks, just snacks", "type": "Bug", "image": "justsnacks.png" }
       ]
     },
     {
       "question": "Pick one to get rich:",
       "answers": [
-        { "text": "Gold", "type": "Flying" },
-        { "text": "OnlyFans", "type": "Poison" },
-        { "text": "Real Estate", "type": "Ground" },
-        { "text": "Bitcoin", "type": "Dragon" }
+        { "text": "Gold", "type": "Flying", "image": "gold.png" },
+        { "text": "OnlyFans", "type": "Poison", "image": "onlyfans.png" },
+        { "text": "Real Estate", "type": "Ground", "image": "real.png" },
+        { "text": "Bitcoin", "type": "Dragon", "image": "btc.png" }
       ]
     }
   ]
-  
