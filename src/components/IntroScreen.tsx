@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/IntroScreen.css";
 
 interface Props {

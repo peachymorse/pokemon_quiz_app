@@ -3,7 +3,9 @@
 export interface Answer {
     text: string;
     type: string;
-}
+    image: string; 
+  }
+  
 
 export interface Question {
     question: string;
